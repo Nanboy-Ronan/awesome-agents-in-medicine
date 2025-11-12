@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nanboy-ronan.github.io/awesome-agents-in-medicine/sitemap.xml
+

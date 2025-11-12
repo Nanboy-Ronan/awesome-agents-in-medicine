@@ -1,0 +1,15 @@
+title: Awesome Agents in Medicine
+description: A curated academic list of AI agents in medicine
+url: https://nanboy-ronan.github.io/awesome-agents-in-medicine
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Optional social metadata (edit as needed)
+author: Nanboy Ronan
+github_username: Nanboy-Ronan
+
+# After you verify in Google Search Console, add your code here
+# google_site_verification: "<paste-verification-code>"
+
