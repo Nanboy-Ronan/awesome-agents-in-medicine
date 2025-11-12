@@ -6,10 +6,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+include:
+  - googlefee0b6506646c996.html
+
 # Optional social metadata (edit as needed)
 author: Nanboy Ronan
 github_username: Nanboy-Ronan
 
 # After you verify in Google Search Console, add your code here
 # google_site_verification: "<paste-verification-code>"
-
