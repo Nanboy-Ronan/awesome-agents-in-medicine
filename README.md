@@ -46,10 +46,13 @@
 
 - [MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow](https://arxiv.org/pdf/2503.18968) — arXiv (2025).
 - [AURA: A Multi-Modal Medical Agent for Understanding, Reasoning & Annotation](https://arxiv.org/abs/2507.16940) — arXiv (2025).
+- [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/pdf/2407.02483) — arXiv (2024).
 
 ### Clinical QA Agents
 
 - Agentic memory-augmented retrieval and evidence grounding for medical question-answering tasks — link needed.
+- [Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents](https://arxiv.org/pdf/2405.02957) — arXiv (2024).
+- [Learning to Be a Doctor: Searching for Effective Medical Agent Architectures](https://dl.acm.org/doi/abs/10.1145/3746027.3755559) — ACM (2025).
 
 ### Others
 
@@ -87,28 +90,10 @@
 
 - [Coming soon](http://example.com) — short description.
 
-## Other Resources
-
-### Benchmarks
-
-- [Coming soon](http://example.com) — short description.
-
-### Datasets
-
-- [Coming soon](http://example.com) — short description.
-
-### Deployments
-
-- [Coming soon](http://example.com) — short description.
-
-### Community
-
-- [Coming soon](http://example.com) — short description.
-
 ## Related Awesome Lists
 
-- [Coming soon](http://example.com)
-- [Coming soon](http://example.com)
+- [HealthcareAgent](https://github.com/AI-Hub-Admin/HealthcareAgent) — List of awesome AI agents for healthcare and common agentic AI API interface.
+- [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) — Latest advances on agentic AI and AI agents for healthcare.
   
 ## Contributing
 
