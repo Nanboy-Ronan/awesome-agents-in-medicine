@@ -18,6 +18,7 @@
   - [Workflow & Simulation Agents](#workflow--simulation-agents)
   - [Imaging & Vision Agents](#imaging--vision-agents)
   - [Multimodal Tool-Using Agents](#multimodal-tool-using-agents)
+  - [Foundation Models (LLM/MLLM, not agents)](#foundation-models-llmmlm-not-agents)
   - [Safety, Security & Evaluation](#safety-security--evaluation)
   - [Others](#others)
 - [Benchmarks :fire:](#benchmarks)
@@ -84,6 +85,17 @@
 - [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/pdf/2407.02483) — arXiv (2024). Shows how agents call segmentation, retrieval, and calculator tools on demand.
 - [Inquire, Interact, and Integrate: A Proactive Agent Collaborative Framework for Zero-Shot Multimodal Medical Reasoning](http://arxiv.org/abs/2405.11640) — arXiv (2024). Planner-agent loop that interleaves questioning, evidence integration, and summarization.
 
+### Foundation Models (LLM/MLLM, not agents)
+
+- [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://arxiv.org/abs/2210.10341) — arXiv (2023) — Model (LLM). Biomedical text generation backbone often used inside downstream agent pipelines.
+- [BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine](https://arxiv.org/abs/2308.09442) — arXiv (2023) — Model (MLLM). Vision-language foundation model for biomedical image/text understanding; typically wrapped by agent controllers.
+- [ChatCAD+: Towards a Universal and Reliable Interactive CAD using LLMs](https://arxiv.org/abs/2305.15964) — arXiv (2023) — Model (MLLM). Interactive CAD/VQA backbone for medical imaging workflows, not an agent by itself.
+- [ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge](https://arxiv.org/abs/2303.14070) — arXiv (2023) — Model (LLM). Clinical dialogue-tuned base model commonly embedded inside agent toolchains.
+- [DoctorGLM: Fine-tuning your Chinese Doctor is not a Herculean Task](https://arxiv.org/abs/2304.01097) — arXiv (2023) — Model (LLM). Chinese clinical assistant model leveraged as the core reasoning engine in many agent systems.
+- [MEDITRON-70B: Scaling Medical Pretraining for Large Language Models](https://arxiv.org/abs/2311.16079) — arXiv (2023) — Model (LLM). Strong medical foundation model often paired with external tools in agent workflows.
+- [Med-Flamingo: a Multimodal Medical Few-shot Learner](https://arxiv.org/abs/2307.15189) — arXiv (2023) — Model (MLLM). Few-shot LVLM pretraining that agents wrap for image+text diagnostic reasoning.
+- [PMC-LLaMA: Towards Building Open-source Language Models for Medicine](https://arxiv.org/abs/2304.14454) — arXiv (2023) — Model (LLM). PMC-pretrained medical LLM used as a lightweight base for agent orchestration.
+
 ### Safety, Security & Evaluation
 
 - [Emerging Cyber Attack Risks of Medical AI Agents](http://arxiv.org/abs/2504.03759) — arXiv (2025). Threat model of prompt-injection and tool-abuse pathways in clinical agents.
@@ -109,8 +121,8 @@
 
 ## Datasets :card_file_box:
 
-- [Stanford-BMI/MedAgentBench](https://huggingface.co/datasets/Stanford-BMI/MedAgentBench) — Hugging Face dataset containing full patient trajectories, orders, and notes aligned with the MedAgentBench protocol.
-- [microsoft/AgentClinic](https://huggingface.co/datasets/microsoft/AgentClinic) — Multimodal simulator dumps (EHR text, imaging references, lab tables) for benchmarking AgentClinic systems.
+- [Stanford-BMI/MedAgentBench](https://arxiv.org/pdf/2501.14654) — Full patient trajectories, orders, and notes aligned with the MedAgentBench protocol.
+- [AgentClinic](https://agentclinic.github.io/) — Multimodal simulator dumps (EHR text, imaging references, lab tables) for benchmarking AgentClinic systems.
 - [vapa/MedicalAgentQA](https://huggingface.co/datasets/vapa/MedicalAgentQA) — Compact QA set targeting reasoning, evidence citation, and tool selection for medical agents.
 
 ## Toolboxes :toolbox:
