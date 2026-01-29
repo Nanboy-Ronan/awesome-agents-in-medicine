@@ -18,6 +18,7 @@
   - [Workflow & Simulation Agents](#workflow--simulation-agents)
   - [Imaging & Vision Agents](#imaging--vision-agents)
   - [Multimodal Tool-Using Agents](#multimodal-tool-using-agents)
+  - [Agent Skills & Tool Learning](#agent-skills--tool-learning)
   - [Foundation Models (LLM/MLLM, not agents)](#foundation-models-llmmlm-not-agents)
   - [Safety, Security & Evaluation](#safety-security--evaluation)
   - [Others](#others)
@@ -116,6 +117,12 @@
 - [AURA: A Multi-Modal Medical Agent for Understanding, Reasoning & Annotation](https://arxiv.org/abs/2507.16940) — arXiv (2025). Unified multimodal agent that annotates and reasons over MRI, CT, and EHR text.
 - [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/pdf/2407.02483) — arXiv (2024). Shows how agents call segmentation, retrieval, and calculator tools on demand.
 - [Inquire, Interact, and Integrate: A Proactive Agent Collaborative Framework for Zero-Shot Multimodal Medical Reasoning](http://arxiv.org/abs/2405.11640) — arXiv (2024). Planner-agent loop that interleaves questioning, evidence integration, and summarization.
+
+### Agent Skills & Tool Learning
+
+- [Large language model agents can use tools to perform clinical calculations](https://www.nature.com/articles/s41746-025-01475-8) — npj Digital Medicine (2025). Tool-use agents improve clinical calculator accuracy via OpenMedCalc and code-interpreter style tools.
+- [AgentMD: Empowering language agents for risk prediction with large-scale clinical tool learning](https://www.nature.com/articles/s41467-025-64430-x) — Nature Communications (2025). Agent curates and selects risk calculators at scale to improve risk prediction.
+- [From Agents to Governance: Essential AI Skills for Clinicians in the Large Language Model Era](https://www.jmir.org/2026/1/e86550) — JMIR (2026). Defines a tiered competency framework for clinicians supervising agentic workflows.
 
 ### Foundation Models (LLM/MLLM, not agents)
 
