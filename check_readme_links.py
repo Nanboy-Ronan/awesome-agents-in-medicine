@@ -8,19 +8,20 @@
 # Author: Brandon Himpfen
 # Website: himpfen.xyz
 
-import requests
+import argparse
 import re
+import requests
+from pathlib import Path
 
 def check_links(file_path):
-    with open(file_path, 'r') as readme_file:
-        contents = readme_file.read()
+    contents = Path(file_path).read_text()
 
     # Extract all URLs from the README file
     urls = re.findall(r'\[.*\]\((http[s]?://.*?)\)', contents)
 
     for url in urls:
         try:
-            response = requests.head(url)
+            response = requests.head(url, allow_redirects=True, timeout=10)
             if response.status_code == 200:
                 print(f"Link {url} is online.")
             else:
@@ -28,6 +29,12 @@ def check_links(file_path):
         except requests.exceptions.RequestException as e:
             print(f"Error occurred while checking link {url}: {str(e)}")
 
-# Provide the path to your README.md file
-readme_path = 'path/to/README.md'
-check_links(readme_path)
+def main():
+    parser = argparse.ArgumentParser(description="Check links in a README file.")
+    parser.add_argument("readme", nargs="?", default="README.md", help="Path to README.md")
+    args = parser.parse_args()
+    check_links(args.readme)
+
+
+if __name__ == "__main__":
+    main()
