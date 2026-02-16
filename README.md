@@ -33,10 +33,14 @@
 
 ### Surveys & Perspectives
 
+- [Agentic AI in Healthcare & Medicine: A Seven-Dimensional Taxonomy for Empirical Evaluation of LLM-based Agents](https://arxiv.org/abs/2602.04813) — IEEE Access (2026). Taxonomy and rubric for evaluating healthcare LLM agents across seven capability dimensions.
+- [Beyond Medical Chatbots: Meddollina and the Rise of Continuous Clinical Intelligence](https://arxiv.org/abs/2601.22645) — arXiv (2026). Argues for governance-first clinical intelligence with bounded inference and principled deferral.
 - [A Survey of LLM-based Agents in Medicine: How far are we from Baymax?](https://arxiv.org/pdf/2502.11211) — arXiv (2025). Comprehensive review of how LLM-based agents are reshaping diagnostics, imaging, and virtual care workflows.
+- [LLM-Based Agents for Tool Learning: A Survey](https://link.springer.com/article/10.1007/s41019-025-00296-9) — Data Science and Engineering (2025). Broad survey of tool-learning agents, including a biomedical section that highlights clinical tool use.
 - [Towards Next-Generation Medical Agent: How o1 is Reshaping Decision-Making in Medical Scenarios](https://arxiv.org/abs/2411.14461) — arXiv (2024). Perspective on integrating frontier reasoning models into clinician workflows.
 - [Adaptive Reasoning and Acting in Medical Language Agents](https://arxiv.org/abs/2410.10020) — arXiv (2024). Discusses design patterns for agents that plan, critique, and self-improve in clinical tasks.
 - [Agentic Systems in Radiology: Design, Applications, Evaluation, and Challenges](https://arxiv.org/pdf/2510.09404v2) — arXiv (2025). Survey of agent patterns tailored to radiology pipelines and how to evaluate them in practice.
+- [Beyond Chatbots: Moving Toward Multistep Modular AI Agents in Medical Education](https://mededu.jmir.org/2025/1/e76661/) — JMIR Medical Education (2025). Viewpoint advocating modular, multistep agent pipelines for clinical teaching workflows.
 
 ### Clinical QA & Knowledge Agents
 
@@ -44,6 +48,7 @@
 - [Agent-Based Large Language Model System for Extracting Structured Data from Breast Cancer Synoptic Reports: A Dual-Validation Study](https://www.medrxiv.org/content/10.1101/2025.11.25.25340989v1) — MedRxiv (2025). Agentic LLM pipeline for structured extraction from breast cancer synoptic reports with dual validation.
 - [ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes](https://arxiv.org/abs/2512.07081) — arXiv (2025). Multi-agent clinical note understanding for HF readmission risk and interpretation.
 - [Multi-agent Self-triage System with Medical Flowcharts](https://arxiv.org/abs/2511.12439) — arXiv (2025). Retrieval, decision, and chat agents guide patient self-triage via validated flowcharts.
+- [ChatMyopia: An AI Agent for Pre-consultation Education in Primary Eye Care Settings](https://arxiv.org/abs/2507.19498) — arXiv (2025). Pre-consultation education agent that integrates image tools and RAG for myopia counseling.
 - [SOLVE-Med: Specialized Orchestration for Leading Vertical Experts across Medical Specialties](https://arxiv.org/abs/2511.03542) — arXiv (2025). Router-and-orchestrator agents coordinate domain-specialist models for medical QA.
 - [Agentic memory-augmented retrieval and evidence grounding for medical question-answering tasks](https://www.medrxiv.org/content/10.1101/2025.08.06.25333160v1) — MedRxiv (2025). Couples tool-augmented recall with long-horizon QA to reduce hallucinations.
 - [RadioRAG: Online Retrieval-augmented Generation for Radiology Question Answering](https://arxiv.org/abs/2407.15621) — arXiv (2024). Streaming RAG agent that keeps pulling prior studies and reports while answering radiology questions.
@@ -67,6 +72,7 @@
 - [ClinicalReTrial: A Self-Evolving AI Agent for Clinical Trial Protocol Optimization](https://arxiv.org/abs/2601.00290) — arXiv (2026). Self-improving agent that iterates on trial protocol drafts to reduce design flaws and improve feasibility.
 - [Causal-Enhanced AI Agents for Medical Research Screening](https://arxiv.org/abs/2601.02814) — arXiv (2026). Agentic screening pipeline for systematic reviews that adds causal signals to reduce hallucinations.
 - [DemMA: Dementia Multi-Turn Dialogue Agent with Expert-Guided Reasoning and Action Simulation](https://arxiv.org/abs/2601.06373) — arXiv (2026). Multi-turn dialogue agent that simulates dementia patient behavior for training and evaluation.
+- [From Passive to Proactive: A Multi-Agent System with Dynamic Task Orchestration for Intelligent Medical Pre-Consultation](https://arxiv.org/abs/2511.01445) — arXiv (2025). Hierarchical agent orchestration for proactive triage and history collection.
 - [MedTutor-R1: Socratic Personalized Medical Teaching with Multi-Agent Simulation](https://arxiv.org/abs/2512.05671) — arXiv (2025). Multi-agent pedagogical simulator and Socratic tutor for one-to-many clinical teaching.
 - [Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents](https://arxiv.org/pdf/2405.02957) — arXiv (2024). End-to-end hospital simulator with patient, clinician, and admin agents.
 - [Learning to Be a Doctor: Searching for Effective Medical Agent Architectures](https://arxiv.org/abs/2504.11301) — arXiv (2025). Benchmarks agent-based curricula across simulated clinical tasks.
@@ -82,6 +88,7 @@
 
 - [An Explainable Agentic AI Framework for Uncertainty-Aware and Abstention-Enabled Acute Ischemic Stroke Imaging Decisions](https://arxiv.org/abs/2601.01008) — arXiv (2026). Imaging agent that explains decisions and abstains under uncertainty for acute stroke workflows.
 - [Route, Retrieve, Reflect, Repair: Self-Improving Agentic Framework for Visual Detection and Linguistic Reasoning in Medical Imaging](https://arxiv.org/abs/2601.08192) — arXiv (2026). Iterative vision-language agent that refines detections and rationales with retrieval and repair loops.
+- [MedSAM-Agent: Empowering Interactive Medical Image Segmentation with Multi-turn Agentic Reinforcement Learning](https://arxiv.org/abs/2602.03320) — arXiv (2026). Interactive segmentation agent trained with multi-turn RL for tool orchestration.
 - [MedRAX: Medical Reasoning Agent for Chest X-ray (ICML 2025)](https://arxiv.org/pdf/2502.02673v1) — arXiv (2025). Director-worker agents coordinate report generation from chest radiographs.
 - [Radiologist Copilot: An Agentic Assistant with Orchestrated Tools for Radiology Reporting with Quality Control](https://arxiv.org/abs/2512.02814) — arXiv (2025). Tool-orchestrated agent drafts volumetric reports with explicit quality-control passes.
 - [LungNoduleAgent: A Collaborative Multi-Agent System for Precision Diagnosis of Lung Nodules](https://arxiv.org/abs/2511.21042) — arXiv (2025). Collaborative agents analyze CT nodules and reason about malignancy.
@@ -119,15 +126,17 @@
 - [Echo-CoPilot: A Multi-View, Multi-Task Agent for Echocardiography Interpretation and Reporting](http://arxiv.org/abs/2512.09944v2) — arXiv (2025). Multi-stage agent handles view selection, measurements, and report drafting for echo studies.
 ### Multimodal Tool-Using Agents
 
-- [MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow](https://arxiv.org/pdf/2503.18968) — arXiv (2025). Integrates imaging, labs, and guidelines with explicit tool calling.
+- [MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow](https://openreview.net/forum?id=ZOuU0udyA4) — OpenReview / ICLR 2026 Poster (2026). Integrates imaging, labs, and guidelines with explicit tool calling.
 - [AURA: A Multi-Modal Medical Agent for Understanding, Reasoning & Annotation](https://arxiv.org/abs/2507.16940) — arXiv (2025). Unified multimodal agent that annotates and reasons over MRI, CT, and EHR text.
 - [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/pdf/2407.02483) — arXiv (2024). Shows how agents call segmentation, retrieval, and calculator tools on demand.
 - [Inquire, Interact, and Integrate: A Proactive Agent Collaborative Framework for Zero-Shot Multimodal Medical Reasoning](http://arxiv.org/abs/2405.11640) — arXiv (2024). Planner-agent loop that interleaves questioning, evidence integration, and summarization.
+- [MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning](https://arxiv.org/abs/2506.00555) — ICLR (2026). RL-based collaboration among GP and specialist agents for multimodal diagnosis.
 
 ### Agent Skills & Tool Learning
 
 - [Large language model agents can use tools to perform clinical calculations](https://www.nature.com/articles/s41746-025-01475-8) — npj Digital Medicine (2025). Tool-use agents improve clinical calculator accuracy via OpenMedCalc and code-interpreter style tools.
 - [AgentMD: Empowering language agents for risk prediction with large-scale clinical tool learning](https://www.nature.com/articles/s41467-025-64430-x) — Nature Communications (2025). Agent curates and selects risk calculators at scale to improve risk prediction.
+- [RiskAgent: Synergizing Language Models with Validated Tools for Evidence-Based Risk Prediction](https://arxiv.org/abs/2503.03802) — arXiv (2025). Tool-using agent that collaborates with evidence-based clinical decision tools for generalist risk prediction.
 - [From Agents to Governance: Essential AI Skills for Clinicians in the Large Language Model Era](https://www.jmir.org/2026/1/e86550) — JMIR (2026). Defines a tiered competency framework for clinicians supervising agentic workflows.
 
 ### Foundation Models (LLM/MLLM, not agents)
@@ -147,6 +156,7 @@
 ### Safety, Security & Evaluation
 
 - [Emerging Cyber Attack Risks of Medical AI Agents](http://arxiv.org/abs/2504.03759) — arXiv (2025). Threat model of prompt-injection and tool-abuse pathways in clinical agents.
+- [AgentsEval: Clinically Faithful Evaluation of Medical Imaging Reports via Multi-Agent Reasoning](https://arxiv.org/abs/2601.16685) — arXiv (2026). Multi-agent evaluation framework with a perturbation-based benchmark for report faithfulness.
 - [Many-to-One Adversarial Consensus: Exposing Multi-Agent Collusion Risks in AI-Based Healthcare](https://arxiv.org/abs/2512.03097) — arXiv (2025). Demonstrates collusion attacks on multi-agent medical advisors and a verifier-agent defense.
 - [Best Practices for Large Language Models in Radiology](https://arxiv.org/abs/2412.01233) — arXiv (2024). Practical guidance and evaluation protocols for deploying radiology-facing agents safely.
 - [Agent-Based Output Drift Detection for Breast Cancer Response Prediction in a Multisite Clinical Decision Support System](https://arxiv.org/abs/2512.18450) — arXiv (2025). Uses agents to detect performance drift across sites in clinical imaging decision support.
@@ -167,7 +177,9 @@
 ## Benchmarks :fire:
 
 - [ART: Action-based Reasoning Task Benchmarking for Medical AI Agents](https://arxiv.org/abs/2601.08988) — arXiv (2026). Evaluates safe, multi-step agent reasoning over structured EHR tasks.
+- [HealthBench](https://openai.com/index/healthbench/) — OpenAI (2025). Rubric-based benchmark of 5,000 multi-turn health conversations with physician-authored criteria.
 - [MedAgentsBench: Benchmarking Thinking Models and Agent Frameworks for Complex Medical Reasoning](https://arxiv.org/pdf/2503.07459) — arXiv (2025). Evaluates chain-of-thought, tool-use, and collaboration on multi-turn patient cases.
+- [MedAgentBoard: Benchmarking Multi-Agent Collaboration with Conventional Methods for Diverse Medical Tasks](https://arxiv.org/abs/2505.12371) — NeurIPS Datasets & Benchmarks (2025). Compares multi-agent, single-LLM, and conventional methods across text, imaging, and EHR tasks.
 - [AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments](https://arxiv.org/pdf/2405.07960) — arXiv (2024). Couples simulated patient avatars with radiology, pathology, and lab tools.
 - [AI Hospital: Benchmarking Large Language Models in a Multi-agent Medical Interaction Simulator](https://aclanthology.org/2025.coling-main.680.pdf) — COLING (2025). Focuses on doctor-patient dialogues and operations management.
 - [MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents](https://arxiv.org/abs/2501.14654) — arXiv (2025). Defines longitudinal inpatient cases for reinforcement-style training.
@@ -177,12 +189,15 @@
 - [ReX-MLE: The Autonomous Agent Benchmark for Medical Imaging Challenges](http://arxiv.org/abs/2512.17838v1) — arXiv (2025). Measures end-to-end tool planning, execution, and reporting across varied medical imaging tasks.
 - [MedInsightBench: Evaluating Medical Analytics Agents Through Multi-Step Insight Discovery in Multimodal Medical Data](http://arxiv.org/abs/2512.13297v1) — arXiv (2025). Scores how agents surface findings, evidence, and next actions over text+image+tabular cases.
 - [CP-Env: Evaluating Large Language Models on Clinical Pathways in a Controllable Hospital Environment](http://arxiv.org/abs/2512.10206v2) — arXiv (2025). Hospital simulator that stresses pathway adherence, order entry, and safety guardrails for agent controllers.
+- [MLB: A Scenario-Driven Benchmark for Evaluating Large Language Models in Clinical Applications](https://arxiv.org/abs/2601.06193) — arXiv (2026). Scenario-driven benchmark spanning knowledge, safety, medical records, and smart services.
 
 ## Datasets :card_file_box:
 
 - [Stanford-BMI/MedAgentBench](https://arxiv.org/pdf/2501.14654) — Full patient trajectories, orders, and notes aligned with the MedAgentBench protocol.
 - [AgentClinic](https://agentclinic.github.io/) — Multimodal simulator dumps (EHR text, imaging references, lab tables) for benchmarking AgentClinic systems.
 - [vapa/MedicalAgentQA](https://huggingface.co/datasets/vapa/MedicalAgentQA) — Compact QA set targeting reasoning, evidence citation, and tool selection for medical agents.
+- [HealthBench](https://openai.com/index/healthbench/) — 5,000 multi-turn physician-authored health conversations with rubric criteria for evaluation.
+- [super-dainiu/medagents-benchmark](https://huggingface.co/datasets/super-dainiu/medagents-benchmark) — Hugging Face dataset for MedAgentsBench hard medical QA subsets.
 
 ## Toolboxes :toolbox:
 
@@ -191,8 +206,10 @@
 - [bowang-lab/MedRAX](https://github.com/bowang-lab/MedRAX) — ICML 2025 MedRAX pipeline with agent orchestration for chest X-ray reasoning.
 - [Tyyds-ai/EndoAgent](https://github.com/Tyyds-ai/EndoAgent) — Long-context planner and reflective memory for endoscopy diagnosis.
 - [jinlab-imvr/MedAgent-Pro](https://github.com/jinlab-imvr/MedAgent-Pro) — Evidence-grounded workflow implementation with multimodal tools and verification agent.
+- [CUHK-AIM-Group/MedSAM-Agent](https://github.com/CUHK-AIM-Group/MedSAM-Agent) — Interactive segmentation agent with multi-turn RL and tool orchestration.
 - [SamuelSchmidgall/AgentClinic](https://github.com/SamuelSchmidgall/AgentClinic) — Simulator, scoring harness, and baselines for the AgentClinic benchmark.
 - [stanfordmlgroup/MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench) — Official implementation of the MedAgentBench virtual EHR benchmark.
+- [openai/simple-evals](https://github.com/openai/simple-evals) — Reference eval code for HealthBench and related benchmarks.
 
 ## Related Awesome Lists
 
