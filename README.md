@@ -44,6 +44,7 @@
 
 ### Clinical QA & Knowledge Agents
 
+- [HypAgent: A Hypothesis-Driven LLM Agent for Clinical Phenotyping and Prediction from EHR Data](https://arxiv.org/abs/2602.16378) — arXiv (2026). Hypothesis-first agent pipeline for EHR phenotyping and downstream risk prediction.
 - [EHRNavigator: A Multi-Agent System for Patient-Level Clinical Question Answering over Heterogeneous Electronic Health Records](https://arxiv.org/abs/2601.10020) — arXiv (2026). Multi-agent QA system that navigates heterogeneous EHR sources to answer patient-level clinical questions.
 - [Agent-Based Large Language Model System for Extracting Structured Data from Breast Cancer Synoptic Reports: A Dual-Validation Study](https://www.medrxiv.org/content/10.1101/2025.11.25.25340989v1) — MedRxiv (2025). Agentic LLM pipeline for structured extraction from breast cancer synoptic reports with dual validation.
 - [ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes](https://arxiv.org/abs/2512.07081) — arXiv (2025). Multi-agent clinical note understanding for HF readmission risk and interpretation.
@@ -176,6 +177,9 @@
 
 ## Benchmarks :fire:
 
+- [GAIA-Medicine: Benchmarking Large Language Models in Medical Reasoning and Diagnosis](https://arxiv.org/abs/2602.18585) — arXiv (2026). Evaluates medical reasoning and diagnosis quality across diverse clinical scenarios.
+- [ClinTrialBench: A Multi-Dimensional Framework to Evaluate LLMs and AI Agents in Clinical Trial Eligibility and Matching](https://arxiv.org/abs/2602.15578) — arXiv (2026). Benchmark for trial eligibility and patient-matching decisions with clinical constraints.
+- [MedSage: A Comprehensive Benchmark for Assessing Medical Assistance Capabilities of Large Language Models](https://arxiv.org/abs/2602.13242) — arXiv (2026). Measures medical assistant performance across QA, reasoning, and decision-support tasks.
 - [ART: Action-based Reasoning Task Benchmarking for Medical AI Agents](https://arxiv.org/abs/2601.08988) — arXiv (2026). Evaluates safe, multi-step agent reasoning over structured EHR tasks.
 - [HealthBench](https://openai.com/index/healthbench/) — OpenAI (2025). Rubric-based benchmark of 5,000 multi-turn health conversations with physician-authored criteria.
 - [MedAgentsBench: Benchmarking Thinking Models and Agent Frameworks for Complex Medical Reasoning](https://arxiv.org/pdf/2503.07459) — arXiv (2025). Evaluates chain-of-thought, tool-use, and collaboration on multi-turn patient cases.
