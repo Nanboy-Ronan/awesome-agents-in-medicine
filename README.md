@@ -140,6 +140,7 @@
 ### Multimodal Tool-Using Agents
 
 - [CARE: Towards Clinical Accountability in Multi-Modal Medical Reasoning with an Evidence-Grounded Agentic Framework](https://arxiv.org/abs/2603.01607) — arXiv (2026). Evidence-grounded multimodal agent framework emphasizing traceability and accountable clinical reasoning.
+- [Meissa: Multi-modal Medical Agentic Intelligence](https://arxiv.org/abs/2603.09018) — arXiv (2026). Lightweight offline 4B multimodal medical agent trained on structured trajectories for strategy selection and multi-step tool or multi-agent interaction.
 - [MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow](https://openreview.net/forum?id=ZOuU0udyA4) — OpenReview / ICLR 2026 Poster (2026). Integrates imaging, labs, and guidelines with explicit tool calling.
 - [AURA: A Multi-Modal Medical Agent for Understanding, Reasoning & Annotation](https://arxiv.org/abs/2507.16940) — arXiv (2025). Unified multimodal agent that annotates and reasons over MRI, CT, and EHR text.
 - [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/pdf/2407.02483) — arXiv (2024). Shows how agents call segmentation, retrieval, and calculator tools on demand.
@@ -226,6 +227,7 @@
 - [bowang-lab/MedRAX](https://github.com/bowang-lab/MedRAX) — ICML 2025 MedRAX pipeline with agent orchestration for chest X-ray reasoning.
 - [Tyyds-ai/EndoAgent](https://github.com/Tyyds-ai/EndoAgent) — Long-context planner and reflective memory for endoscopy diagnosis.
 - [jinlab-imvr/MedAgent-Pro](https://github.com/jinlab-imvr/MedAgent-Pro) — Evidence-grounded workflow implementation with multimodal tools and verification agent.
+- [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) — Large open-source medical skill library for OpenClaw/NanoClaw, covering clinical, genomics, drug discovery, bioinformatics, and medical device workflows.
 - [CUHK-AIM-Group/MedSAM-Agent](https://github.com/CUHK-AIM-Group/MedSAM-Agent) — Interactive segmentation agent with multi-turn RL and tool orchestration.
 - [SamuelSchmidgall/AgentClinic](https://github.com/SamuelSchmidgall/AgentClinic) — Simulator, scoring harness, and baselines for the AgentClinic benchmark.
 - [stanfordmlgroup/MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench) — Official implementation of the MedAgentBench virtual EHR benchmark.
