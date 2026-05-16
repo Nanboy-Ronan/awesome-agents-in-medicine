@@ -10,7 +10,7 @@
 
 > A curated academic list of AI agents in medicine.
 >
-> Last updated: 2026-05-15
+> Last updated: 2026-05-16
 
 ## Table of Contents
 
@@ -95,6 +95,8 @@
 - [MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making](https://proceedings.neurips.cc/paper_files/paper/2024/file/90d1fc07f46e31387978b88e7e057a31-Paper-Conference.pdf) — NeurIPS (2024). Uses self-reflection and role specialization to step through treatment decisions.
 - [Agentic Medical Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge](http://arxiv.org/abs/2502.13010) — arXiv (2025). Grounds agents in dynamic knowledge graphs for up-to-date recommendations.
 - [KERAP: A Knowledge-Enhanced Reasoning Approach for Accurate Zero-shot Diagnosis Prediction Using Multi-agent LLMs](https://arxiv.org/abs/2507.02773) — arXiv (2025). Hierarchical agents blend retrieval-augmented prompts with structured reasoning for rare cases.
+- [MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/37052) — AAAI (2026). Logic-tree agents use graph-guided discussion to resolve premise-level inconsistencies in complex medical reasoning.
+- [ConfAgents: A Conformal-Guided Multi-Agent Framework for Cost-Efficient Medical Diagnosis](https://arxiv.org/abs/2508.04915) — arXiv (2025). Confidence-guided triage escalates uncertain diagnosis cases to collaborative agents while reducing unnecessary multi-agent computation.
 - [MedAide: Information Fusion and Anatomy of Medical Intents via LLM-based Agent Collaboration](http://arxiv.org/abs/2410.12532) — arXiv (2024). Decomposes physician intents into coordinated agent subtasks.
 - [Multi Agent based Medical Assistant for Edge Devices](http://arxiv.org/abs/2503.05397) — arXiv (2025). Lightweight cooperating agents for remote/edge clinical deployments.
 - [TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools](https://arxiv.org/pdf/2503.10970v1) — arXiv (2025). Tool-using agent that navigates drug facts, contraindications, and dosing rules step by step.
@@ -329,6 +331,8 @@
 - [SamuelSchmidgall/AgentClinic](https://github.com/SamuelSchmidgall/AgentClinic) — Simulator, scoring harness, and baselines for the AgentClinic benchmark.
 - [stanfordmlgroup/MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench) — Official implementation of the MedAgentBench virtual EHR benchmark.
 - [openai/simple-evals](https://github.com/openai/simple-evals) — Reference eval code for HealthBench and related benchmarks.
+- [alexander2618/MedLA](https://github.com/alexander2618/MedLA) — Official AAAI 2026 codebase for logic-driven multi-agent medical reasoning.
+- [PKU-AICare/ConfAgents](https://github.com/PKU-AICare/ConfAgents) — Official implementation for conformal-guided, cost-efficient multi-agent medical diagnosis.
 
 ## Related Awesome Lists
 
