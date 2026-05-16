@@ -8,13 +8,38 @@
 [![GitHub forks](https://img.shields.io/github/forks/Nanboy-Ronan/awesome-medical-imaging-agents?color=red&style=plastic)](https://github.com/Nanboy-Ronan/awesome-medical-imaging-agents/network/members)
 [![GitHub Contributors](https://img.shields.io/github/contributors/Nanboy-Ronan/awesome-medical-imaging-agents?color=green&style=plastic)](https://github.com/Nanboy-Ronan/awesome-medical-imaging-agents/graphs/contributors)
 
-> A curated academic list of AI agents for medical imaging.
+> A curated academic list of agentic AI for medical image analysis.
 >
 > Last updated: 2026-05-16
 
-This repository tracks research on agentic AI, LLM agents, multimodal agents, and tool-using AI systems for medical imaging and clinical workflows. It focuses on radiology, pathology, ultrasound, CT, MRI, chest X-ray, dermatology imaging, endoscopy, segmentation, report generation, clinical decision support, benchmarks, datasets, and open-source toolboxes.
+> **Note:** Previously named *Awesome Agents in Medicine*, this list now focuses on the fast-growing subfield of medical imaging agents.
 
-Use this list to find recent papers, surveys, benchmarks, datasets, and implementations for medical imaging agents, healthcare AI agents, radiology agents, pathology agents, multimodal medical AI, and LLM-based clinical reasoning systems.
+> **Suggested GitHub description:** "Awesome list and searchable hub for medical imaging agents: radiology agents, pathology agents, segmentation agents, medical VLM agents, benchmarks, datasets, tools, and papers."
+
+This repository tracks research on medical imaging agents, agentic AI for medical image analysis, and tool-using AI systems for imaging-focused clinical workflows. It covers radiology agents, pathology agents, ultrasound agents, endoscopy agents, ophthalmology agents, 3D medical imaging agents, medical vision-language models (VLMs), segmentation agents, report-generation agents, multimodal clinical reasoning systems, CT, MRI, chest X-ray, dermatology imaging, clinical decision support, benchmarks, datasets, and open-source toolboxes.
+
+Use this list to find recent papers, surveys, benchmarks, datasets, and implementations for medical imaging agents, radiology agents, pathology agents, ultrasound agents, medical VLM agents, multimodal clinical reasoning, and tool-using agents for medical image analysis.
+
+## Start Here: Essential Medical Imaging Agent Papers
+
+New to the field? The table below selects 12 landmark papers and systems spanning the core subfields. Reading these gives a solid mental model of the space before diving into the full list.
+
+| Paper / System | Year | Domain | Why it matters | Links |
+|---|---:|---|---|---|
+| [Agentic Systems in Radiology: Design, Applications, Evaluation, and Challenges](https://arxiv.org/pdf/2510.09404v2) | 2025 | Survey · Radiology | Best entry-point survey: maps agent design patterns, evaluation protocols, and open challenges across the full radiology pipeline. | [Paper](https://arxiv.org/pdf/2510.09404v2) |
+| [MedRAX](https://arxiv.org/pdf/2502.02673v1) | 2025 | Radiology · CXR | ICML 2025 — director-worker architecture shows how composable tool-using agents outperform single-model baselines on chest X-ray reasoning. | [Paper](https://arxiv.org/pdf/2502.02673v1) · [Code](https://github.com/bowang-lab/MedRAX) |
+| [RadAgent](https://arxiv.org/abs/2604.15231) | 2026 | Radiology · CT | Generates chest CT reports through an explicit tool-calling workflow with inspectable intermediate traces — a blueprint for auditable radiology agents. | [Paper](https://arxiv.org/abs/2604.15231) |
+| [MMedAgent](https://arxiv.org/pdf/2407.02483) | 2024 | Multimodal · Tool-use | First paper to train a medical agent that selects and calls specialist tools (segmentation, retrieval, calculators) on demand across seven imaging modalities. | [Paper](https://arxiv.org/pdf/2407.02483) · [Code](https://github.com/Wangyixinxin/MMedAgent) |
+| [MedAgent-Pro](https://openreview.net/forum?id=ZOuU0udyA4) | 2026 | Medical VLM · Imaging | ICLR 2026 — integrates imaging, labs, and clinical guidelines via explicit tool calling; demonstrates evidence-based multimodal clinical reasoning. | [Paper](https://openreview.net/forum?id=ZOuU0udyA4) · [Code](https://github.com/jinlab-imvr/MedAgent-Pro) |
+| [MedSAM-Agent](https://arxiv.org/abs/2602.03320) | 2026 | Segmentation | Introduces multi-turn RL to train an interactive segmentation agent that decides which prompts to issue to SAM — the first RL-trained imaging segmentation agent. | [Paper](https://arxiv.org/abs/2602.03320) · [Code](https://github.com/CUHK-AIM-Group/MedSAM-Agent) |
+| [CPathAgent](https://arxiv.org/abs/2505.20510) | 2025 | Pathology · WSI | Agentic foundation model that mimics pathologist diagnostic logic to deliver interpretable analysis of high-resolution whole-slide images. | [Paper](https://arxiv.org/abs/2505.20510) |
+| [VoxelPrompt](http://arxiv.org/abs/2410.08397) | 2024 | 3D Imaging · Volumetric | Multi-stage vision agent for end-to-end volumetric medical image analysis, covering segmentation, detection, and QA across CT, MRI, and PET. | [Paper](http://arxiv.org/abs/2410.08397) |
+| [Echo-alpha](https://arxiv.org/abs/2604.28011) | 2026 | Ultrasound | Demonstrates that large agentic reasoning models can jointly localize lesions and perform grounded multimodal clinical interpretation of ultrasound studies. | [Paper](https://arxiv.org/abs/2604.28011) |
+| [EndoAgent](https://arxiv.org/abs/2508.07292) | 2025 | Endoscopy | Memory-guided reflective agent for endoscopic vision-to-decision reasoning; representative model of how specialty-specific imaging agents are designed. | [Paper](https://arxiv.org/abs/2508.07292) · [Code](https://github.com/Tyyds-ai/EndoAgent) |
+| [AgentClinic](https://www.nature.com/articles/s41746-026-02674-7) | 2026 | Benchmark · Multimodal | The canonical multimodal benchmark for tool-using clinical AI agents; standardizes evaluation across imaging, EHR, and lab modalities with open simulator. | [Paper](https://www.nature.com/articles/s41746-026-02674-7) · [Code](https://github.com/SamuelSchmidgall/AgentClinic) · [Demo](https://agentclinic.github.io/) |
+| [ABRA: Agent Benchmark for Radiology Applications](https://arxiv.org/abs/2605.11224) | 2026 | Benchmark · Radiology | First benchmark where agents operate a real DICOM viewer (OHIF + Orthanc) via tool calls, testing end-to-end radiology agent workflows on live imaging software. | [Paper](https://arxiv.org/abs/2605.11224) |
+
+---
 
 ## Scope
 
@@ -26,6 +51,7 @@ Use this list to find recent papers, surveys, benchmarks, datasets, and implemen
 ## Table of Contents
 
 - [Scope](#scope)
+- [Start Here: Essential Medical Imaging Agent Papers](#start-here-essential-medical-imaging-agent-papers)
 - [Awesome Medical Imaging Agents Paper List :page_with_curl:](#paper-list)
   - [Surveys & Perspectives](#surveys--perspectives)
   - [Clinical QA & Knowledge Agents](#clinical-qa--knowledge-agents)
